@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+   
+    color: #0c3341;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.container{
+    padding: 0 8.5%; 
+    display: grid;
+    gap: 1em;
+    grid-auto-flow: dense;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill,  minmax(15rem, 1fr));
+}
+
+.card{
+    cursor: pointer;
+}
+
+.cut-text { 
+    text-overflow: ellipsis;
+    overflow: hidden; 
+    width: 90%; 
+    height: 1.2em; 
+    white-space: nowrap;
+  }
