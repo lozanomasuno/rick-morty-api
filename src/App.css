@@ -1,32 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 *{
-    font-family: 'Roboto', sans-serif;
-   
+    font-family: 'Roboto', sans-serif;   
     color: #0c3341;
 }
-h1{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    padding-top: 1.5rem;
-}
+
 .container{
-    padding: 0 8.5%; 
+    padding: 0 9%;
     display: grid;
+    justify-items: center;
     gap: 1em;
     grid-auto-flow: dense;
-    grid-auto-rows: 22rem;
+    grid-auto-rows: 25rem;    
     grid-template-columns: repeat(auto-fill,  minmax(15rem, 1fr));
 }
 
 .card{
     cursor: pointer;
+    height: 44vh;
 }
 
 .cut-text { 
     text-overflow: ellipsis;
     overflow: hidden; 
-    width: 90%; 
+    width: 85%;
     height: 1.2em; 
     white-space: nowrap;
-  }
+}
+
+.pic-banner {
+    display: flex;
+    justify-content: center;
+    background-color: #feb81c;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+.pic-banner img{
+    width: 30%;
+}
