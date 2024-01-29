@@ -28,6 +28,7 @@ npm run dev
 ### Dependencias
 - React router Dom
 - Cards de ElementUI
+- Jets para testing 
 
 ## Desarrollado por
 > ingeniero Nelson Lozano
